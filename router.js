@@ -97,6 +97,8 @@ router.delete('/homeworks/:id', async (req, res) => {
 })
 
 
+//@desc delete all homework data
+//@route delete /api/homeworks
 router.delete('/homeworks', async (req, res) => {
     const homework = Homework;
     if(homework){
